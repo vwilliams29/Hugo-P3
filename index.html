@@ -43,7 +43,8 @@
 	        <div class="col-md-6">
 	            <div class="thumbnail">
 								<ul>
-									<li v-for="movies in data">
+									<li v-for="movies in data"></li>
+								</ul>
 
 
 						<img class="poster" v-bind:src="movies[0].posters[0]" />
@@ -60,8 +61,7 @@
 			              <p class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i> {{  movies[0].dislikes }}</p>
 			            </div>
 	            </div>
-							</li>
-						</ul>
+
 	        </div>
 
 	      </div>
