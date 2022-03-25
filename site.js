@@ -84,10 +84,10 @@ const vue_app = Vue.createApp({
                 case 12:
                 month = 'Decemeber';
               }
-              return month + ' ' + day + year;
+              return month + ' ' + day  +  year;
             },
             posterClick(index){
-              
+
             }
       }
 })
