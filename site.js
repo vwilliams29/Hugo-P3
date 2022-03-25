@@ -36,7 +36,9 @@ const vue_app = Vue.createApp({
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             title: "IMDB + Venus's Top 8 MOVIES",
             owner: "Venus",
-            github:'https://github.com/vwilliams29/Hugo-P3.git'
+            github:'https://github.com/vwilliams29/Hugo-P3.git',
+            likes: 244,
+            dislikes: 7493
       }
     },
       methods: {
@@ -84,7 +86,7 @@ const vue_app = Vue.createApp({
                 case 12:
                 month = 'Decemeber';
               }
-              return month + ' ' + day  +  year;
+              return month + ' ' +  day  +  year;
             },
             posterClick(index){
 
