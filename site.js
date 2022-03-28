@@ -37,8 +37,7 @@ const vue_app = Vue.createApp({
             title: "IMDB + Venus's Top 8 MOVIES",
             owner: "Venus",
             github:'https://github.com/vwilliams29/Hugo-P3.git',
-            likes: 244,
-            dislikes: 7493
+
       }
     },
       methods: {
@@ -89,6 +88,7 @@ const vue_app = Vue.createApp({
               return month + ' ' +  day  +  year;
             },
             posterClick(index){
+              
 
             }
       }
