@@ -46,7 +46,7 @@
 
 
 
-						<img class="poster" v-bind:src="movie.posters[movie.posterindex]" />
+						<img class="poster" v-bind:src="movie.posters[movie.posterindex]" v-on:click="posterClick(index)" />
 						<div class="imageInfo">{{ movie.posterIndex }}</div>
 
 						<p class="title">{{ movie.title }} ({{ movie.country}})</p>
