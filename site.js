@@ -88,13 +88,16 @@ const vue_app = Vue.createApp({
               return month + ' ' +  day  +  year;
             },
             posterClick(index){
-              if (this.movie[index].posterindex < this.movie[index].posters.length - 1){
+              if (this.movies[index].posterindex < this.movies[index].posters.length - 1){
                 this.movies[index].posterindex += 1;
               } else{
                 this.movies[index].posterindex = 0;
               }
 
             },
+            timeText(minutes){
+
+            }
       }
 })
 
