@@ -94,8 +94,7 @@ const vue_app = Vue.createApp({
                 this.movies[index].posterindex = 0;
               }
 
-
-            }
+            },
       }
 })
 
