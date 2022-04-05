@@ -48,7 +48,7 @@
 
 
 						<img class="poster" v-bind:src="movie.posters[movie.posterindex]"  v-on:click="posterClick(index)"/>
-						<div class="imageInfo" v-model.number ="movie.posterindex"><p> Poster {{ movie.posterindex + 1 }} of {{ movies[index].posters.length }}</p></div>
+						<div class="imageInfo" v-model.number ="movie.posterindex">{{ movie.posterindex + 1 }} of {{ movies[index].posters.length }}</div>
 
 						<p class="title">{{ movie.title }} ({{ movie.country}})</p>
 						<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{ movie.iscore }} </p>
