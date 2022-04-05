@@ -68,5 +68,19 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+        "title": "Black Panther",
+        "iscore": 8.8,
+        "rating": "PG-13",
+        "runtime": 134,
+        "released": [2018, 2, 16],
+        "country": "USA",
+        "posters": ["img/blackpanther.jpg", "img/blackpanther2.jpg"],
+        "imdb": "http://www.imdb.com/title/tt0108052",
+        "website": "https://www.facebook.com/blackpanther",
+        "likes": 1,003,
+        "dislikes": 101,
+        "posterindex": 0
       }
 ]
