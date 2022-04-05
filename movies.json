@@ -84,18 +84,17 @@
         "posterindex": 0
       },
       {
-        "title": "Captain America: The Winter Soldier",
-        "iscore": 7.8,
-        "rating": "PG-13",
-        "runtime": 136,
-        "released": [2014, 4, 4],
-        "country": "USA",
-        "posters": ["img/captain.jpg", "img/captain2.jpg"],
-        "imdb": "http://www.imdb.com/title/tt0108052",
-        "website": "https://www.facebook.com/captainamerica.wintersoldier",
-        "likes": 987,
-        "dislikes": 190,
-        "posterindex": 0
-
+         "title": "Captain America: The Winter Soldier",
+         "iscore": 7.8,
+         "rating": "PG-13",
+         "runtime": 136,
+         "released": [2014, 4, 4],
+         "country": "USA",
+         "posters": ["img/captain.jpg", "img/captain2.jpg"],
+         "imdb": "http://www.imdb.com/title/tt0108052",
+         "website": "https://www.facebook.com/captainamerica.wintersoldier",
+         "likes": 987,
+         "dislikes": 190,
+         "posterindex": 0
       }
 ]
